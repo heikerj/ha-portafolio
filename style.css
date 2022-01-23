@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+
+*{
+  
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+    font-size: 15pt;
+    font-family:  'Raleway', sans-serif;
+  
+}
+
+.container{
+  margin: 0 auto;
+  width: 90%;
+  overflow: hidden;
+  padding: 80px 0;
+}
+
+.background{
+  
+    
+  background: linear-gradient(90deg,#FF4C00,#00FFD3);
+  padding: 20px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+
+}
+
+header{
+  
+  background: linear-gradient(90deg,#FF4C00,#00FFD3);
+  border: 1px solid white;
+  border-radius: 50px;
+  color: white;
+  
+}
+
+nav{
+  
+  background-color: #FFFFFF70;
+  margin-top: none;
+  margin-bottom: 100px;
+  padding: 25px;
+  border: 2px solid white;
+  border-radius: 50px;
+  text-align: end;
+  
+}
+
+.iniciales{
+  
+  font-size: 20px;
+  text-align: start;
+  float: left;
+  float: top;
+  color: white;
+  margin-bottom: 10px;
+  margin-left: 10px;
+
+  
+}
+
+.nav_items{
+  
+  color: white;
+  padding-right: 20px;
+  
+}
+
+a{
+  
+  text-decoration: none;
+  
+  
+}
+
+.hero__cta{
+  float: right;
+  background: white;
+  padding: 20px;
+  margin:10px;
+  border-radius: 50px;
+  
+}
+.text_gradient{
+  
+  
+  -webkit-text-fill-color:transparent;
+  background: linear-gradient(270deg,#FF4C00,#00FFD3);
+  -webkit-background-clip: text;
+  
+}
+
+
+.main__skills{
+  
+  display: flex;
+  justify-content:center;
+  border-bottom: 2px solid #FF730947;
+  border-bottom-left-radius: 50px ;
+  border-bottom-right-radius:50px ;
+  padding-bottom: 30px;
+  
+
+  
+  
+  
+  
+}
+
+
+.skills{
+  
+  font-size: 70px;
+  text-align: center;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(270deg,#FF4C00,#00FFD3);
+    -webkit-background-clip: text;
+  
+}
+
+
+
+.img_skills{
+  
+  height: 150px;
+  
+}
+
+.html,.css,.js{
+  
+  margin: auto;
+  
+  
+}
+
+
+.progreso1{
+  
+  width: 0%;
+  height: 25px;
+  background: linear-gradient(270deg, #F87F2F, #FF9A57);
+  border-radius: 50px;
+  
+  
+  
+}
+    
+
+    @keyframes progress {
+      
+  0% {
+  
+    width: 0%;
+  
+  
+  }
+  
+  50% {
+  
+    width: 50%;
+  
+  }
+  
+  
+  100% {
+  
+    width: 100%;
+}
+   }
+.animate {
+  animation-name: progress;
+  animation-duration: 4s;
+}
+
+
+
+.progreso2 {
+
+  width: 0%;
+  height: 25px;
+  background: linear-gradient(270deg, #53CEF8, #00FFD3);
+  border-radius: 50px;
+  
+
+
+}
+
+@keyframes progress2 {
+
+  0% {
+
+    width: 0%;
+
+
+  }
+
+  50% {
+
+    width: 30%;
+
+  }
+
+
+  100% {
+
+    width: 60%;
+  
+
+  }
+
+
+}
+
+.animate {
+  animation-name: progress2;
+  animation-duration: 4s;
+}
+
+
+
+.progreso3 {
+
+  width: 0%;
+  height: 25px;
+  background: linear-gradient(270deg, #C9CD45, #FFF617);
+  border-radius: 50px;
+  
+
+
+}
+
+@keyframes progress3 {
+
+  0% {
+
+    width: 0%;
+
+
+  }
+
+  50% {
+
+    width: 10%;
+
+  }
+
+
+  100% {
+
+    width: 50%;
+
+  }
+
+
+}
+
+.animate {
+  animation-name: progress3;
+  animation-duration: 4s ;
+}
+
+.progreso1_border{
+  
+  border-radius: 50px;
+  border: 2px solid #FF4C00;
+  height: 25;
+  overflow: hidden;
+  
+}
+.progreso2_border {
+
+  border-radius: 50px;
+  border: 2px solid #009BFF;
+  height: 25;
+  overflow: hidden;
+
+}
+
+.progreso3_border{
+  
+  border-radius: 50px;
+  border: 2px solid #FFF617;
+  height: 25;
+  overflow: hidden;
+  
+}
+
+.contactme_title{
+  
+  font-size: 70px;
+  text-align: center;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg, #FF6107, #07FFD4);
+  -webkit-background-clip: text;
+  
+  
+}
+
+
+.contactme {
+  
+  
+    display: flex;
+  justify-content:center;
+  border-bottom: 2px solid #FF730947;
+  border-bottom-left-radius: 50px ;
+  border-bottom-right-radius:50px ;
+  padding-bottom: 30px;
+  color: red;
+  margin: auto;
+  
+  
+  
+}
+
+
+
+#facebook,#whatsapp,#instagram{
+  
+  font-size: 100px;
+  margin: auto;
+  
+}
+
+#facebook{
+  
+  -webkit-text-fill-color: transparent;
+  background: radial-gradient( #0722FF, #97CFFF);
+  -webkit-background-clip: text;
+  
+}
+
+#whatsapp {
+
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(#00905F, #009F69);
+  -webkit-background-clip: text;
+
+}
+
+#instagram {
+
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(45deg,#FFED00,#FF6767,#C000B5);
+  -webkit-background-clip: text;
+
+}
+
+
+@media screen and (max-width:630px) {
+  
+  body {
+    font-size: 60%; 
+    
+    
+  }
+
+  .img_skills{
+    
+    height: 4rem;
+    
+  }
+  
+  a{
+    
+    font-size: 3px;
+    
+  }
+  
+  h1{
+    
+    font-size: 20px;
+
+    
+  }
+  
+  .skills{
+    
+    font-size: 2rem;
+    
+    
+  }
+  
+  .contactme_title{
+    
+    font-size: 2rem;
+    
+  }
+  
+  #facebook,#whatsapp,#instagram{
+    
+    font-size: 2rem;
+    
+  }
+  
+  .iniciales{
+    
+    font-size: 100%;
+    display: none;
+    
+    
+  }
+  
+  nav{
+    
+    text-align: center;
+    
+    
+  }
+  
+
+  
+}
